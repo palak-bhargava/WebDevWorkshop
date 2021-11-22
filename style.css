@@ -107,6 +107,7 @@ a{
 }
 .emailInput{
     border: none;
+    margin-top: 1vh ;
     width: 15vw;
 }
 .inputDiv{
@@ -121,7 +122,7 @@ a{
     color: white;
     font-family: 'Bebas Neue', cursive;
     font-weight: 200;
-    font-size: 1vw;
+    font-size: 1.4vw;
     text-decoration: none;
 }
 .lineBreak{
@@ -129,3 +130,7 @@ a{
     margin-top: 1vh;
     margin-right: 1vw ;
 }
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 12pt; 
+ }
