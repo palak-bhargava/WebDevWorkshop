@@ -61,6 +61,43 @@ a{
     margin-left: 4.5vw;
     opacity: 0.8;
 }
+
+.homepage-content {
+    margin-left: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.womens-clothing-content {
+    margin-left: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.mens-clothing-content {
+    margin-left: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.shoes-content {
+    margin-left: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.jeans-content {
+    margin-left: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.clearance-content {
+    margin-left: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
 .footer{
     display: flex;
     flex-direction: row;
@@ -134,3 +171,5 @@ a{
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     font-size: 12pt; 
  }
+
+ 
