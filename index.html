@@ -12,30 +12,69 @@
     <div class="header">
         <h1 class="websiteTitle">RUNWAY</h1>
     </div>
-    <div class="navbar">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="womensclothing.html">Women</a></li>
-                <li><a href="mensclothing.html">Men</a></li>
-                <li><a href="jeans.html">Jeans</a></li>
-                <li><a href="shoes.html">Shoes & Accessories</a></li>
-                <li><a href="clearance.html">Clearance</a></li>
-            </ul>
-        </nav>
-        <div class="navbarIcons">
-            <a href="">
-                <img class="icons" src="./assets/search.png">
-            </a>
-            <a href="">
-                <img class="icons" src="./assets/profile.png">
-            </a>
-            <a href="">
-                <img class="icons" src="./assets/cart.png">
-            </a>
+  
+    <div class="navbarContainer">
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="womensclothing.html">Women</a></li>
+                    <li><a href="mensclothing.html">Men</a></li>
+                    <li><a href="jeans.html">Jeans</a></li>
+                    <li><a href="shoes.html">Shoes & Accessories</a></li>
+                    <li><a href="clearance.html">Clearance</a></li>
+                </ul>
+            </nav>
+            <div class="navbarIcons">
+                <a href="">
+                    <img class="icons" src="./assets/search.png">
+                </a>
+                <a href="">
+                    <img class="icons" src="./assets/profile.png">
+                </a>
+                <a href="">
+                    <img class="icons" src="./assets/cart.png">
+                </a>
+            </div>
         </div>
     </div>
-
+    <!-- This is the main content for the homepage -->
+    <div class="mainContent">
+        <div class="grid-container">
+            <div class="grid-item-top">
+                <a href="">
+                    <img class="image-top-row" src="./assets/women.jpg">
+                    <div class="centered-text">WOMEN</div>
+                </a>
+            </div>
+            <div class="grid-item-top">
+                <a href="">
+                    <img class="image-top-row" src="./assets/men.jpg">
+                    <div class="centered-text">MEN</div>
+                </a>
+            </div>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item-bottom">
+                <a href="">
+                    <img class="image-bottom-row" src="./assets/jeans.jpeg">
+                    <div class="centered-text">JEANS</div>
+                </a>
+            </div>
+            <div class="grid-item-bottom">
+                <a href="">
+                    <img class="image-bottom-row" src="./assets/shoes_and_accessories.jpg">
+                    <div class="centered-text">SHOES & ACCESSORIES</div>
+                </a>
+            </div>
+            <div class="grid-item-bottom">
+                <a href="">
+                    <img class="image-bottom-row" src="./assets/clearance.jpeg">
+                    <div class="centered-text">CLEARANCE</div>
+                </a>
+            </div>
+        </div>
+    </div>
 
     <div class="footer">
         <div class="footerColumns">
@@ -86,19 +125,17 @@
         </div>
         <div class="footerColumns">
             <h2 class="subtitle">SUBSCRIBE</h2>
-            <form action="">
-                <label for="fname"></label>
-                <div class="inputDiv">
-                    <div>
-                        <input class="emailInput" type="email" name="email" placeholder="Email Address"
+            <div class="inputDiv">
+                <div>
+                    <input class="emailInput" type="text" placeholder="Email Address" id="emailInput"
                         pattern="[a-z]-@-[a-z].com">
-                        <br>
+                    <br>
                     <hr class="lineBreak">
-                    </div>
-                    <input class="submitBtn" type="submit" value="Submit">
                 </div>
+                <button onclick="document.getElementById('emailInput').value = ''" class="submitBtn"> SUBMIT </button>
+            </div>
 
-            </form>
+
         </div>
     </div>
 
