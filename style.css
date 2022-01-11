@@ -156,24 +156,32 @@ a{
     width: 100%
   } 
   .grid-item-top {
-    background-color: blue;
-    font-size: 30px;
     margin: 1vw 2vw 1vw 0;
-    width: 47vw;
-    height: 50vh 
+    position: relative;
+    text-align: center;
   }
   .grid-item-bottom {
-    background-color: blue;
-    font-size: 30px;
-    margin: 1vw 2vw 1vw 0;
-    width: 30.7vw;
-    height: 60vh 
+    margin: 1vw 2vw 1vw 0; 
+    position: relative;
+    text-align: center;
   }
   .image-top-row{
     width: 47vw;
-    height: 50vh 
+    height: auto; 
   }
   .image-bottom-row{
     width: 30.7vw;
-    height: 60vh 
+    height: auto; 
+  }
+  
+  .centered-text{
+    color: white; 
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 9vh;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 200;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }

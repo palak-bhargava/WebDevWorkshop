@@ -41,12 +41,14 @@
         <div class="grid-container">
             <div class="grid-item-top">
                 <a href="">
-                    <img class="image-top-row" src="./assets/women.jpeg">
+                    <img class="image-top-row" src="./assets/women.jpg">
+                    <div class="centered-text">WOMEN</div>
                 </a>
             </div>
             <div class="grid-item-top">
                 <a href="">
-                    <img class="image-top-row" src="./assets/men.jpeg">
+                    <img class="image-top-row" src="./assets/men.jpg">
+                    <div class="centered-text">MEN</div>
                 </a>
             </div>
         </div>
@@ -54,16 +56,19 @@
             <div class="grid-item-bottom">
                 <a href="">
                     <img class="image-bottom-row" src="./assets/jeans.jpeg">
+                    <div class="centered-text">JEANS</div>
                 </a>
             </div>
             <div class="grid-item-bottom">
                 <a href="">
-                    <img class="image-bottom-row" src="./assets/shoes_and_accessories.jpeg">
+                    <img class="image-bottom-row" src="./assets/shoes_and_accessories.jpg">
+                    <div class="centered-text">SHOES & ACCESSORIES</div>
                 </a>
             </div>
             <div class="grid-item-bottom">
                 <a href="">
                     <img class="image-bottom-row" src="./assets/clearance.jpeg">
+                    <div class="centered-text">CLEARANCE</div>
                 </a>
             </div>
         </div>
@@ -123,19 +128,17 @@
         </div>
         <div class="footerColumns">
             <h2 class="subtitle">SUBSCRIBE</h2>
-            <form action="">
-                <label for="fname"></label>
-                <div class="inputDiv">
-                    <div>
-                        <input class="emailInput" type="email" name="email" placeholder="Email Address"
-                            pattern="[a-z]-@-[a-z].com">
-                        <br>
-                        <hr class="lineBreak">
-                    </div>
-                    <input class="submitBtn" type="submit" value="Submit">
+            <div class="inputDiv">
+                <div>
+                    <input class="emailInput" type="text" placeholder="Email Address" id="emailInput"
+                        pattern="[a-z]-@-[a-z].com">
+                    <br>
+                    <hr class="lineBreak">
                 </div>
+                <button onclick="document.getElementById('emailInput').value = ''" class="submitBtn"> SUBMIT </button>
+            </div>
 
-            </form>
+
         </div>
     </div>
 
