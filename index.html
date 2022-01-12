@@ -1,3 +1,4 @@
+<!-- Every HTML file begins with <!DOCTYPE html>, this is how the computer knows how to interpret the file -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,11 +10,13 @@
 </head>
 
 <body>
+    <!-- The website header at the top -->
     <div class="header">
-        <h1 class="websiteTitle">RUNWAY</h1>
+        <h1 class="website-title">RUNWAY</h1>
     </div>
-  
-    <div class="navbarContainer">
+    <!-- The horizontal navigation bar -->
+    <div class="navbar-container">
+        <!-- sub containter for page links -->
         <div class="navbar">
             <nav>
                 <ul>
@@ -25,44 +28,52 @@
                     <li><a href="clearance.html">Clearance</a></li>
                 </ul>
             </nav>
-            <div class="navbarIcons">
-                <a href="">
-                    <img class="icons" src="./assets/search.png">
-                </a>
-                <a href="">
-                    <img class="icons" src="./assets/profile.png">
-                </a>
-                <a href="">
-                    <img class="icons" src="./assets/cart.png">
-                </a>
-            </div>
+        </div>
+        <!-- sub container for the icon links -->
+        <div class="navbar-icons">
+            <a href="">
+                <img class="icons" src="./assets/search.png">
+            </a>
+            <a href="">
+                <img class="icons" src="./assets/profile.png">
+            </a>
+            <a href="">
+                <img class="icons" src="./assets/cart.png">
+            </a>
         </div>
     </div>
+
     <!-- This is the main content for the homepage -->
-    <div class="mainContent">
+    <div class="homepage-content">
+        <!-- outer container with sub containers for top images -->
         <div class="grid-container">
+            <!-- upper image container -->
             <div class="grid-item-top">
-                <a href="">
+                <!-- anchor tag to make the image clickable -->
+                <a href="womensclothing.html">
                     <img class="image-top-row" src="./assets/women.jpg">
                     <div class="centered-text">WOMEN</div>
                 </a>
             </div>
             <div class="grid-item-top">
-                <a href="">
+                <a href="mensclothing.html">
                     <img class="image-top-row" src="./assets/men.jpg">
                     <div class="centered-text">MEN</div>
                 </a>
             </div>
         </div>
+        <!-- outer container with sub containers for bottom images -->
         <div class="grid-container">
+            <!-- bottom image container -->
             <div class="grid-item-bottom">
-                <a href="">
+                <!-- anchor tag to make the image clickable -->
+                <a href="jeans.html">
                     <img class="image-bottom-row" src="./assets/jeans.jpeg">
                     <div class="centered-text">JEANS</div>
                 </a>
             </div>
             <div class="grid-item-bottom">
-                <a href="">
+                <a href="shoes.html">
                     <img class="image-bottom-row" src="./assets/shoes_and_accessories.jpg">
                     <div class="centered-text">SHOES & ACCESSORIES</div>
                 </a>
@@ -76,71 +87,76 @@
         </div>
     </div>
 
+    <!-- This is the main content for the footer -->
+    <!-- outer container for the footer -->
     <div class="footer">
-        <div class="footerColumns">
-            <h2 class="websiteName">RUNWAY</h2>
+        <!-- sub container for one column in the footer -->
+        <div class="footer-columns">
+            <h2 class="website-name">RUNWAY</h2>
         </div>
-        <div class="footerColumns">
-            <h2 class="subtitle">ABOUT US</h2>
-            <p class="text">
+        <!-- sub container for one column in the footer -->
+        <div class="footer-columns">
+            <h2 class="footer-subtitle">ABOUT US</h2>
+            <p class="footer-text">
                 Runway is an e-commerce website created by the members of the SWErve committee at the UTD chapter of The
                 Society of Women Engineers.
                 This is a template website meant for instructional purposes during workshops.
             </p>
         </div>
-        <div class="footerColumns">
-            <h2 class="subtitle">HELP</h2>
-            <p class="text2">
+        <div class="footer-columns">
+            <h2 class="footer-subtitle">HELP</h2>
+            <p class="footer-text2">
+                <!-- anchor tags make these clickable links -->
                 <a href="">
                     Contact Us!
                 </a>
             </p>
-            <p class="text2">
+            <p class="footer-text2">
                 <a href="">
                     Orders and Returns
                 </a>
             </p>
-            <p class="text2">
+            <p class="footer-text2">
                 <a href="">
                     Covid-19 Resources
                 </a>
             </p>
         </div>
-        <div class="footerColumns">
-            <h2 class="subtitle">FOLLOW</h2>
-            <div class="footerIcons">
-                <a href="" class="text2">
-                    <img class="footerIcon" src="./assets/fblogo.png">
+
+        <div class="footer-columns">
+            <h2 class="footer-subtitle">FOLLOW</h2>
+            <!-- containter for the social media icons and names -->
+            <div class="footer-social-icons">
+                <!-- anchor tags make these clickable links -->
+                <a href="" class="footer-text2">
+                    <img class="footer-icon" src="./assets/fblogo.png">
                     Facebook
                 </a>
-                <a href="" class="text2">
-                    <img class="footerIcon" src="./assets/instalogo.png">
+                <a href="" class="footer-text2">
+                    <img class="footer-icon" src="./assets/instalogo.png">
                     Instagram
                 </a>
-                <a href="" class="text2">
-                    <img class="footerIcon" src="./assets/twitterlogo.png">
+                <a href="" class="footer-text2">
+                    <img class="footer-icon" src="./assets/twitterlogo.png">
                     Twitter
                 </a>
             </div>
         </div>
-        <div class="footerColumns">
-            <h2 class="subtitle">SUBSCRIBE</h2>
-            <div class="inputDiv">
+
+        <div class="footer-columns">
+            <h2 class="footer-subtitle">SUBSCRIBE</h2>
+            <!-- container for the input filed and the submit button -->
+            <div class="input-div">
                 <div>
-                    <input class="emailInput" type="text" placeholder="Email Address" id="emailInput"
+                    <input class="email-input" type="text" placeholder="Email Address" id="emailInput"
                         pattern="[a-z]-@-[a-z].com">
                     <br>
-                    <hr class="lineBreak">
+                    <hr class="line-break">
                 </div>
-                <button onclick="document.getElementById('emailInput').value = ''" class="submitBtn"> SUBMIT </button>
+                <button onclick="document.getElementById('emailInput').value = ''" class="submit-btn"> SUBMIT </button>
             </div>
-
-
         </div>
     </div>
-
-
-
 </body>
 
 </html>

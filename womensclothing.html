@@ -4,16 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RUNWAY</title>
+    <title>RUNWAY - Women's</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- The website header at the top -->
     <div class="header">
-        <h1 class="websiteTitle">RUNWAY</h1>
+        <h1 class="website-title">RUNWAY</h1>
     </div>
-
-    <div class="navbarContainer">
+    <!-- The horizontal navigation bar -->
+    <div class="navbar-container">
+        <!-- sub containter for page links -->
         <div class="navbar">
             <nav>
                 <ul>
@@ -25,23 +27,24 @@
                     <li><a href="clearance.html">Clearance</a></li>
                 </ul>
             </nav>
-            <div class="navbarIcons">
-                <a href="">
-                    <img class="icons" src="./assets/search.png">
-                </a>
-                <a href="">
-                    <img class="icons" src="./assets/profile.png">
-                </a>
-                <a href="">
-                    <img class="icons" src="./assets/cart.png">
-                </a>
-            </div>
+        </div>
+        <!-- sub container for the icon links -->
+        <div class="navbar-icons">
+            <a href="">
+                <img class="icons" src="./assets/search.png">
+            </a>
+            <a href="">
+                <img class="icons" src="./assets/profile.png">
+            </a>
+            <a href="">
+                <img class="icons" src="./assets/cart.png">
+            </a>
         </div>
     </div>
     <!-- This is the main content for the women's clothing page -->
 
     <!-- this is the vertical nav bar for different sections on the page-->
-    <div class="main-wc-container">
+    <div class="main-c-container">
         <div class="vertical-nav">
             <ul>
                 <li><a href="#tops">Tops</a></li>
@@ -52,36 +55,39 @@
 
         </div>
         <!-- repetition can be reduces and code can be optimized by using a json file, but for simplicity, we have hardcoded-->
-        <div class="wc-containter">
+        <!-- the outer container for clothing items-->
+        <div class="c-containter">
             <a class="anchor" name="tops"></a>
             <h1 class="text">TOPS</h1>
-            <div class="wc-grid-containter">
-                <div class="grid-item">
-                    <img class="item-image" src="./assets/wt1.jpeg">
+            <!-- container for each category of clothing items -->
+            <div class="c-grid-containter">
+                <!-- individual clothing item container -->
+                <div class="c-grid-item">
+                    <img class="c-item-image" src="./assets/wt1.jpeg">
                     <h2>Brown T-shirt</h2>
                     <h3>$19.99</h3>
                     <button class="cart-button">ADD TO CART</button>
                 </div>
-                <div class="grid-item">
-                    <img class="item-image" src="./assets/wt2.jpeg">
+                <div class="c-grid-item">
+                    <img class="c-item-image" src="./assets/wt2.jpeg">
                     <h2>White T-shirt</h2>
                     <h3>$19.99</h3>
                     <button class="cart-button">ADD TO CART</button>
                 </div>
-                <div class="grid-item">
-                    <img class="item-image" src="./assets/wt3.jpeg">
+                <div class="c-grid-item">
+                    <img class="c-item-image" src="./assets/wt3.jpeg">
                     <h2>Balck Hoodie</h2>
                     <h3>$44.99</h3>
                     <button class="cart-button">ADD TO CART</button>
                 </div>
-                <div class="grid-item">
-                    <img class="item-image" src="./assets/wt4.jpeg">
+                <div class="c-grid-item">
+                    <img class="c-item-image" src="./assets/wt4.jpeg">
                     <h2>Tan Longsleeve</h2>
                     <h3>$24.99</h3>
                     <button class="cart-button">ADD TO CART</button>
                 </div>
-                <div class="grid-item">
-                    <img class="item-image" src="./assets/wt5.jpeg">
+                <div class="c-grid-item">
+                    <img class="c-item-image" src="./assets/wt5.jpeg">
                     <h2>Grey Hoodie</h2>
                     <h3>$44.99</h3>
                     <button class="cart-button">ADD TO CART</button>
@@ -89,21 +95,21 @@
             </div>
             <a class="anchor" name="bottoms"></a>
             <h1 class="text">BOTTOMS</h1>
-            <div class="wc-grid-containter">
-                <div class="grid-item">
-                    <img class="item-image" src="./assets/wb1.jpeg">
+            <div class="c-grid-containter">
+                <div class="c-grid-item">
+                    <img class="c-item-image" src="./assets/wb1.jpeg">
                     <h2>Denim Jeans</h2>
                     <h3>$29.99</h3>
                     <button class="cart-button">ADD TO CART</button>
                 </div>
-                <div class="grid-item">
-                    <img class="item-image" src="./assets/wb2.jpeg">
+                <div class="c-grid-item">
+                    <img class="c-item-image" src="./assets/wb2.jpeg">
                     <h2>Pleated Skirt</h2>
                     <h3>$19.99</h3>
                     <button class="cart-button">ADD TO CART</button>
                 </div>
-                <div class="grid-item">
-                    <img class="item-image" src="./assets/wb3.jpeg">
+                <div class="c-grid-item">
+                    <img class="c-item-image" src="./assets/wb3.jpeg">
                     <h2>Red Pants</h2>
                     <h3>$24.99</h3>
                     <button class="cart-button">ADD TO CART</button>
@@ -111,15 +117,15 @@
             </div>
             <a class="anchor" name="dresses"></a>
             <h1 class="text">DRESSES</h1>
-            <div class="wc-grid-containter">
-                <div class="grid-item">
-                    <img class="item-image" src="./assets/wd1.jpeg">
+            <div class="c-grid-containter">
+                <div class="c-grid-item">
+                    <img class="c-item-image" src="./assets/wd1.jpeg">
                     <h2>Denim Dress</h2>
                     <h3>$44.99</h3>
                     <button class="cart-button">ADD TO CART</button>
                 </div>
-                <div class="grid-item">
-                    <img class="item-image" src="./assets/wd2.jpeg">
+                <div class="c-grid-item">
+                    <img class="c-item-image" src="./assets/wd2.jpeg">
                     <h2>Off-shoulder Dress</h2>
                     <h3>$54.99</h3>
                     <button class="cart-button">ADD TO CART</button>
@@ -127,21 +133,21 @@
             </div>
             <a class="anchor" name="jackets"></a>
             <h1 class="text">JACKETS</h1>
-            <div class="wc-grid-containter">
-                <div class="grid-item">
-                    <img class="item-image" src="./assets/wj1.jpeg">
+            <div class="c-grid-containter">
+                <div class="c-grid-item">
+                    <img class="c-item-image" src="./assets/wj1.jpeg">
                     <h2>Pastel Yellow Jacket </h2>
                     <h3>$59.99</h3>
                     <button class="cart-button">ADD TO CART</button>
                 </div>
-                <div class="grid-item">
-                    <img class="item-image" src="./assets/wj2.jpeg">
+                <div class="c-grid-item">
+                    <img class="c-item-image" src="./assets/wj2.jpeg">
                     <h2>Ripped Denim Jacket</h2>
                     <h3>$59.99</h3>
                     <button class="cart-button">ADD TO CART</button>
                 </div>
-                <div class="grid-item">
-                    <img class="item-image" src="./assets/wj3.jpeg">
+                <div class="c-grid-item">
+                    <img class="c-item-image" src="./assets/wj3.jpeg">
                     <h2>Brown Overcoat</h2>
                     <h3>$79.99</h3>
                     <button class="cart-button">ADD TO CART</button>
@@ -150,72 +156,76 @@
         </div>
     </div>
 
-    <!-- this is the footer content-->
+    <!-- This is the main content for the footer -->
+    <!-- outer container for the footer -->
     <div class="footer">
-        <div class="footerColumns">
-            <h2 class="websiteName">RUNWAY</h2>
+        <!-- sub container for one column in the footer -->
+        <div class="footer-columns">
+            <h2 class="website-name">RUNWAY</h2>
         </div>
-        <div class="footerColumns">
-            <h2 class="subtitle">ABOUT US</h2>
-            <p class="text">
+        <!-- sub container for one column in the footer -->
+        <div class="footer-columns">
+            <h2 class="footer-subtitle">ABOUT US</h2>
+            <p class="footer-text">
                 Runway is an e-commerce website created by the members of the SWErve committee at the UTD chapter of The
                 Society of Women Engineers.
                 This is a template website meant for instructional purposes during workshops.
             </p>
         </div>
-        <div class="footerColumns">
-            <h2 class="subtitle">HELP</h2>
-            <p class="text2">
+        <div class="footer-columns">
+            <h2 class="footer-subtitle">HELP</h2>
+            <p class="footer-text2">
+                <!-- anchor tags make these clickable links -->
                 <a href="">
                     Contact Us!
                 </a>
             </p>
-            <p class="text2">
+            <p class="footer-text2">
                 <a href="">
                     Orders and Returns
                 </a>
             </p>
-            <p class="text2">
+            <p class="footer-text2">
                 <a href="">
                     Covid-19 Resources
                 </a>
             </p>
         </div>
-        <div class="footerColumns">
-            <h2 class="subtitle">FOLLOW</h2>
-            <div class="footerIcons">
-                <a href="" class="text2">
-                    <img class="footerIcon" src="./assets/fblogo.png">
+
+        <div class="footer-columns">
+            <h2 class="footer-subtitle">FOLLOW</h2>
+            <!-- containter for the social media icons and names -->
+            <div class="footer-social-icons">
+                <!-- anchor tags make these clickable links -->
+                <a href="" class="footer-text2">
+                    <img class="footer-icon" src="./assets/fblogo.png">
                     Facebook
                 </a>
-                <a href="" class="text2">
-                    <img class="footerIcon" src="./assets/instalogo.png">
+                <a href="" class="footer-text2">
+                    <img class="footer-icon" src="./assets/instalogo.png">
                     Instagram
                 </a>
-                <a href="" class="text2">
-                    <img class="footerIcon" src="./assets/twitterlogo.png">
+                <a href="" class="footer-text2">
+                    <img class="footer-icon" src="./assets/twitterlogo.png">
                     Twitter
                 </a>
             </div>
         </div>
-        <div class="footerColumns">
-            <h2 class="subtitle">SUBSCRIBE</h2>
-            <div class="inputDiv">
+
+        <div class="footer-columns">
+            <h2 class="footer-subtitle">SUBSCRIBE</h2>
+            <!-- container for the input filed and the submit button -->
+            <div class="input-div">
                 <div>
-                    <input class="emailInput" type="text" placeholder="Email Address" id="emailInput"
+                    <input class="email-input" type="text" placeholder="Email Address" id="emailInput"
                         pattern="[a-z]-@-[a-z].com">
                     <br>
-                    <hr class="lineBreak">
+                    <hr class="line-break">
                 </div>
-                <button onclick="document.getElementById('emailInput').value = ''" class="submitBtn"> SUBMIT </button>
+                <button onclick="document.getElementById('emailInput').value = ''" class="submit-btn"> SUBMIT </button>
             </div>
-
-
         </div>
     </div>
-
-
-
 </body>
 
 </html>
