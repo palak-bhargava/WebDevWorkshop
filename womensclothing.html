@@ -12,45 +12,145 @@
     <div class="header">
         <h1 class="websiteTitle">RUNWAY</h1>
     </div>
-    <div class="navbar">
-        <nav>
+
+    <div class="navbarContainer">
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="womensclothing.html">Women</a></li>
+                    <li><a href="mensclothing.html">Men</a></li>
+                    <li><a href="jeans.html">Jeans</a></li>
+                    <li><a href="shoes.html">Shoes & Accessories</a></li>
+                    <li><a href="clearance.html">Clearance</a></li>
+                </ul>
+            </nav>
+            <div class="navbarIcons">
+                <a href="">
+                    <img class="icons" src="./assets/search.png">
+                </a>
+                <a href="">
+                    <img class="icons" src="./assets/profile.png">
+                </a>
+                <a href="">
+                    <img class="icons" src="./assets/cart.png">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- This is the main content for the women's clothing page -->
+
+    <!-- this is the vertical nav bar for different sections on the page-->
+    <div class="main-wc-container">
+        <div class="vertical-nav">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="womensclothing.html">Women</a></li>
-                <li><a href="mensclothing.html">Men</a></li>
-                <li><a href="jeans.html">Jeans</a></li>
-                <li><a href="shoes.html">Shoes & Accessories</a></li>
-                <li><a href="clearance.html">Clearance</a></li>
+                <li><a href="#tops">Tops</a></li>
+                <li><a href="#bottoms">Bottoms</a></li>
+                <li><a href="#dresses">Dresses</a></li>
+                <li><a href="#jackets">Jackets</a></li>
             </ul>
-        </nav>
-        <div class="navbarIcons">
-            <a href="">
-                <img class="icons" src="./assets/search.png">
-            </a>
-            <a href="">
-                <img class="icons" src="./assets/profile.png">
-            </a>
-            <a href="">
-                <img class="icons" src="./assets/cart.png">
-            </a>
+
+        </div>
+        <!-- repetition can be reduces and code can be optimized by using a json file, but for simplicity, we have hardcoded-->
+        <div class="wc-containter">
+            <a class="anchor" name="tops"></a>
+            <h1 class="text">TOPS</h1>
+            <div class="wc-grid-containter">
+                <div class="grid-item">
+                    <img class="item-image" src="./assets/wt1.jpeg">
+                    <h2>Brown T-shirt</h2>
+                    <h3>$19.99</h3>
+                    <button class="cart-button">ADD TO CART</button>
+                </div>
+                <div class="grid-item">
+                    <img class="item-image" src="./assets/wt2.jpeg">
+                    <h2>White T-shirt</h2>
+                    <h3>$19.99</h3>
+                    <button class="cart-button">ADD TO CART</button>
+                </div>
+                <div class="grid-item">
+                    <img class="item-image" src="./assets/wt3.jpeg">
+                    <h2>Balck Hoodie</h2>
+                    <h3>$44.99</h3>
+                    <button class="cart-button">ADD TO CART</button>
+                </div>
+                <div class="grid-item">
+                    <img class="item-image" src="./assets/wt4.jpeg">
+                    <h2>Tan Longsleeve</h2>
+                    <h3>$24.99</h3>
+                    <button class="cart-button">ADD TO CART</button>
+                </div>
+                <div class="grid-item">
+                    <img class="item-image" src="./assets/wt5.jpeg">
+                    <h2>Grey Hoodie</h2>
+                    <h3>$44.99</h3>
+                    <button class="cart-button">ADD TO CART</button>
+                </div>
+            </div>
+            <a class="anchor" name="bottoms"></a>
+            <h1 class="text">BOTTOMS</h1>
+            <div class="wc-grid-containter">
+                <div class="grid-item">
+                    <img class="item-image" src="./assets/wb1.jpeg">
+                    <h2>Denim Jeans</h2>
+                    <h3>$29.99</h3>
+                    <button class="cart-button">ADD TO CART</button>
+                </div>
+                <div class="grid-item">
+                    <img class="item-image" src="./assets/wb2.jpeg">
+                    <h2>Pleated Skirt</h2>
+                    <h3>$19.99</h3>
+                    <button class="cart-button">ADD TO CART</button>
+                </div>
+                <div class="grid-item">
+                    <img class="item-image" src="./assets/wb3.jpeg">
+                    <h2>Red Pants</h2>
+                    <h3>$24.99</h3>
+                    <button class="cart-button">ADD TO CART</button>
+                </div>
+            </div>
+            <a class="anchor" name="dresses"></a>
+            <h1 class="text">DRESSES</h1>
+            <div class="wc-grid-containter">
+                <div class="grid-item">
+                    <img class="item-image" src="./assets/wd1.jpeg">
+                    <h2>Denim Dress</h2>
+                    <h3>$44.99</h3>
+                    <button class="cart-button">ADD TO CART</button>
+                </div>
+                <div class="grid-item">
+                    <img class="item-image" src="./assets/wd2.jpeg">
+                    <h2>Off-shoulder Dress</h2>
+                    <h3>$54.99</h3>
+                    <button class="cart-button">ADD TO CART</button>
+                </div>
+            </div>
+            <a class="anchor" name="jackets"></a>
+            <h1 class="text">JACKETS</h1>
+            <div class="wc-grid-containter">
+                <div class="grid-item">
+                    <img class="item-image" src="./assets/wj1.jpeg">
+                    <h2>Pastel Yellow Jacket </h2>
+                    <h3>$59.99</h3>
+                    <button class="cart-button">ADD TO CART</button>
+                </div>
+                <div class="grid-item">
+                    <img class="item-image" src="./assets/wj2.jpeg">
+                    <h2>Ripped Denim Jacket</h2>
+                    <h3>$59.99</h3>
+                    <button class="cart-button">ADD TO CART</button>
+                </div>
+                <div class="grid-item">
+                    <img class="item-image" src="./assets/wj3.jpeg">
+                    <h2>Brown Overcoat</h2>
+                    <h3>$79.99</h3>
+                    <button class="cart-button">ADD TO CART</button>
+                </div>
+            </div>
         </div>
     </div>
 
-
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <div class="womens-clothing-content">
-        <h3> Here are the available clothing items for women. </h3>
-    </div>
-
-    <br>
-    <br>
-    <br>
-    <br>
-
+    <!-- this is the footer content-->
     <div class="footer">
         <div class="footerColumns">
             <h2 class="websiteName">RUNWAY</h2>
@@ -100,19 +200,17 @@
         </div>
         <div class="footerColumns">
             <h2 class="subtitle">SUBSCRIBE</h2>
-            <form action="">
-                <label for="fname"></label>
-                <div class="inputDiv">
-                    <div>
-                        <input class="emailInput" type="email" name="email" placeholder="Email Address"
+            <div class="inputDiv">
+                <div>
+                    <input class="emailInput" type="text" placeholder="Email Address" id="emailInput"
                         pattern="[a-z]-@-[a-z].com">
-                        <br>
+                    <br>
                     <hr class="lineBreak">
-                    </div>
-                    <input class="submitBtn" type="submit" value="Submit">
                 </div>
+                <button onclick="document.getElementById('emailInput').value = ''" class="submitBtn"> SUBMIT </button>
+            </div>
 
-            </form>
+
         </div>
     </div>
 

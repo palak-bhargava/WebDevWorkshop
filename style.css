@@ -32,6 +32,7 @@
     position: fixed;
     z-index: 1;
     top: 4.5vw;
+    
 }
 .navbar{
     display: flex;
@@ -192,6 +193,7 @@ a{
     padding-left: 2vw;
     width: 100%
   } 
+  
   .grid-item-top {
     margin: 1vw 2vw 1vw 0;
     position: relative;
@@ -202,6 +204,7 @@ a{
     position: relative;
     text-align: center;
   }
+  
   .image-top-row{
     width: 47vw;
     height: auto; 
@@ -223,3 +226,74 @@ a{
     transform: translate(-50%, -50%);
   }
 
+  .vertical-nav{
+    width: 15vw;
+    position: fixed;
+  }
+  .vertical-nav li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vw;
+    margin-top: 4vh;
+    padding-left: 1vw;
+  }
+  
+  .main-wc-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vw;
+  }
+  .wc-containter{
+    width: 100%;
+    height:100%;
+    margin-left: 15vw;
+    position: relative;
+  }
+  .wc-containter .text{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5vh;
+  }
+  a.anchor {
+    display: block;
+    position: relative;
+    top: -12vw;
+    visibility: hidden;
+  }
+  .wc-grid-containter{
+    display: grid;
+    grid-template-columns: 18vw 18vw 18vw 18vw;
+    justify-content: space-between;
+    padding: 0 2vw 2vw 2vw;
+    
+  }
+  .grid-item {
+    position: relative;
+    text-align: left;
+    margin: 2vw 1vw 2vw 1vw;
+  }
+  .grid-item h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vw;
+    padding-bottom: 1vh;
+  }
+  .grid-item h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2vw;
+}
+.cart-button{
+    border: none;
+    width: 15vw;
+    height: 3vh;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    transition-duration: 0.4s;
+}
+.cart-button:hover{
+    background-color:#0081a7;
+}
+  .item-image {
+    width: 15vw;
+    height: 37vh;
+  }
+  
