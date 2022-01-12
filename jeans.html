@@ -4,26 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RUNWAY</title>
+    <title>RUNWAY - Jeans</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- The website header at the top -->
     <div class="header">
-        <h1 class="websiteTitle">RUNWAY</h1>
+        <h1 class="website-title">RUNWAY</h1>
     </div>
-    <div class="navbar">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="womensclothing.html">Women</a></li>
-                <li><a href="mensclothing.html">Men</a></li>
-                <li><a href="jeans.html">Jeans</a></li>
-                <li><a href="shoes.html">Shoes & Accessories</a></li>
-                <li><a href="clearance.html">Clearance</a></li>
-            </ul>
-        </nav>
-        <div class="navbarIcons">
+    <!-- The horizontal navigation bar -->
+    <div class="navbar-container">
+        <!-- sub containter for page links -->
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="womensclothing.html">Women</a></li>
+                    <li><a href="mensclothing.html">Men</a></li>
+                    <li><a href="jeans.html">Jeans</a></li>
+                    <li><a href="shoes.html">Shoes & Accessories</a></li>
+                    <li><a href="clearance.html">Clearance</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- sub container for the icon links -->
+        <div class="navbar-icons">
             <a href="">
                 <img class="icons" src="./assets/search.png">
             </a>
@@ -35,14 +41,14 @@
             </a>
         </div>
     </div>
+    <!-- This is the main content for the women's clothing page -->
 
-
     <br>
     <br>
     <br>
     <br>
 
-    <div class="jeans-content">
+    <div class="clothing-content">
         <h3> Here are the available jeans. </h3>
     </div>
 
@@ -51,73 +57,76 @@
     <br>
     <br>
 
+    <!-- This is the main content for the footer -->
+    <!-- outer container for the footer -->
     <div class="footer">
-        <div class="footerColumns">
-            <h2 class="websiteName">RUNWAY</h2>
+        <!-- sub container for one column in the footer -->
+        <div class="footer-columns">
+            <h2 class="website-name">RUNWAY</h2>
         </div>
-        <div class="footerColumns">
-            <h2 class="subtitle">ABOUT US</h2>
-            <p class="text">
+        <!-- sub container for one column in the footer -->
+        <div class="footer-columns">
+            <h2 class="footer-subtitle">ABOUT US</h2>
+            <p class="footer-text">
                 Runway is an e-commerce website created by the members of the SWErve committee at the UTD chapter of The
                 Society of Women Engineers.
                 This is a template website meant for instructional purposes during workshops.
             </p>
         </div>
-        <div class="footerColumns">
-            <h2 class="subtitle">HELP</h2>
-            <p class="text2">
+        <div class="footer-columns">
+            <h2 class="footer-subtitle">HELP</h2>
+            <p class="footer-text2">
+                <!-- anchor tags make these clickable links -->
                 <a href="">
                     Contact Us!
                 </a>
             </p>
-            <p class="text2">
+            <p class="footer-text2">
                 <a href="">
                     Orders and Returns
                 </a>
             </p>
-            <p class="text2">
+            <p class="footer-text2">
                 <a href="">
                     Covid-19 Resources
                 </a>
             </p>
         </div>
-        <div class="footerColumns">
-            <h2 class="subtitle">FOLLOW</h2>
-            <div class="footerIcons">
-                <a href="" class="text2">
-                    <img class="footerIcon" src="./assets/fblogo.png">
+
+        <div class="footer-columns">
+            <h2 class="footer-subtitle">FOLLOW</h2>
+            <!-- containter for the social media icons and names -->
+            <div class="footer-social-icons">
+                <!-- anchor tags make these clickable links -->
+                <a href="" class="footer-text2">
+                    <img class="footer-icon" src="./assets/fblogo.png">
                     Facebook
                 </a>
-                <a href="" class="text2">
-                    <img class="footerIcon" src="./assets/instalogo.png">
+                <a href="" class="footer-text2">
+                    <img class="footer-icon" src="./assets/instalogo.png">
                     Instagram
                 </a>
-                <a href="" class="text2">
-                    <img class="footerIcon" src="./assets/twitterlogo.png">
+                <a href="" class="footer-text2">
+                    <img class="footer-icon" src="./assets/twitterlogo.png">
                     Twitter
                 </a>
             </div>
         </div>
-        <div class="footerColumns">
-            <h2 class="subtitle">SUBSCRIBE</h2>
-            <form action="">
-                <label for="fname"></label>
-                <div class="inputDiv">
-                    <div>
-                        <input class="emailInput" type="email" name="email" placeholder="Email Address"
-                        pattern="[a-z]-@-[a-z].com">
-                        <br>
-                    <hr class="lineBreak">
-                    </div>
-                    <input class="submitBtn" type="submit" value="Submit">
-                </div>
 
-            </form>
+        <div class="footer-columns">
+            <h2 class="footer-subtitle">SUBSCRIBE</h2>
+            <!-- container for the input filed and the submit button -->
+            <div class="input-div">
+                <div>
+                    <input class="email-input" type="text" placeholder="Email Address" id="emailInput"
+                        pattern="[a-z]-@-[a-z].com">
+                    <br>
+                    <hr class="line-break">
+                </div>
+                <button onclick="document.getElementById('emailInput').value = ''" class="submit-btn"> SUBMIT </button>
+            </div>
         </div>
     </div>
-
-
-
 </body>
 
 </html>
